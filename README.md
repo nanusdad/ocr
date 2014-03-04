@@ -54,4 +54,6 @@
         cd ocr
         node cr.js
 
-        # All done ! 
+        # All done !
+
+__Thanks to info at [silverbiology](http://www.silverbiology.com/blog/2011/03/10/amazon-ec2-tesseract-ocr-thank-you/)__
