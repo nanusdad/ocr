@@ -23,6 +23,7 @@
         sudo make install
 
 ***Install tesseract-ocr***
+
         cd /tmp/
         sudo wget http://tesseract-ocr.googlecode.com/files/tesseract-3.00.tar.gz
         sudo gunzip tesseract-3.00.tar.gz
