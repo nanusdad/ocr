@@ -2,4 +2,4 @@
 
 ## Installing nodecr ##
 
-nodecr require *Tesseract* which in turn requires *Leptonica*
+**nodecr** requires [tesseract-ocr](https://code.google.com/p/tesseract-ocr/) which in turn requires *Leptonica*
