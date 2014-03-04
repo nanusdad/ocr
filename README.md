@@ -1,12 +1,12 @@
-# Testing nodecr on AWS EC2 instance #
+#nodecr on AWS EC2 instance#
 
-## Installing nodecr ##
+##Installing nodecr##
 
 **nodecr** requires [tesseract-ocr](https://code.google.com/p/tesseract-ocr/) which in turn requires [Leptonica](http://leptonica.com/)
 
 ***Packages needed for compile to work***
 
-	    # May not required for you
+	    # May not be required for you
 	    sudo yum -y update 
 	    sudo yum -y install libtiff libtiff-devel libjpeg-devel libpng-devel gcc gcc-c++ libtool
 
