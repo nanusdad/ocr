@@ -9,6 +9,8 @@ nodecr.process('/path/to/image.jpg',function(err, text) {
     }
 });
 
+// Need to install language packs in
+// /usr/local/share/tessdata
 // Recognise Eng text in a single uniform block of text
 nodecr.process('/path/to/image.jpg',function(err, text) {
     if(err) {
