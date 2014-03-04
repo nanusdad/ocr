@@ -40,3 +40,18 @@
         sudo wget http://tesseract-ocr.googlecode.com/files/eng.traineddata.gz
         cd /usr/local/share/tessdata
         sudo gzip -d /tmp/eng.traineddata.gz
+
+***Install nodecr***
+
+        sudo npm install -g nodecr
+
+###Running Test script###
+
+        cd /tmp
+        # copy a jpg file to /tmp/image.jpg
+
+        git clone https://github.com/nanusdad/ocr.git
+        cd ocr
+        node cr.js
+
+        # All done ! 
