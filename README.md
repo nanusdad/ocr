@@ -40,7 +40,7 @@
         sudo wget https://tesseract-ocr.googlecode.com/files/tesseract-ocr-3.02.eng.tar.gz
         cd /usr/local/share/tessdata
         gzip -d /tmp/tesseract-ocr-3.02.eng.tar.gz
-	tar xfv /tmp/tesseract-ocr-3.02.eng.tar
+	    tar xfv /tmp/tesseract-ocr-3.02.eng.tar
 
 ***Install nodecr***
 
