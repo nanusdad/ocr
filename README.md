@@ -13,10 +13,10 @@
 ***Install Leptonica***
 
 	    cd /tmp
-	    wget http://www.leptonica.org/source/leptonlib-1.67.tar.gz
-        sudo gunzip leptonlib-1.67.tar.gz
-        $sudo tar -xvf leptonlib-1.67.tar
-        cd leptonlib-1.67/
+	    wget http://www.leptonica.com/source/leptonica-1.70.tar.gz
+        sudo gunzip leptonlib-1.70.tar.gz
+        $sudo tar -xvf leptonlib-1.70.tar
+        cd leptonica-1.70/
         sudo ./configure
         sudo make 
         # Takes a little while
@@ -25,11 +25,11 @@
 ***Install tesseract-ocr***
 
         cd /tmp/
-        sudo wget http://tesseract-ocr.googlecode.com/files/tesseract-3.00.tar.gz
-        sudo gunzip tesseract-3.00.tar.gz
-        sudo tar -xvf tesseract-3.00.tar
-        cd tesseract-3.00/
-        sudo ./runautoconf
+        sudo wget https://tesseract-ocr.googlecode.com/files/tesseract-ocr-3.02.02.tar.gz
+        sudo gunzip tesseract-3.02.02.tar.gz
+        sudo tar -xvf tesseract-3.02.02.tar
+        cd tesseract-3.02.02/
+        sudo ./autogen.sh
         sudo ./configure
         sudo make
         # Takes a little while
@@ -37,9 +37,10 @@
 
         # Install English Data
         cd /tmp
-        sudo wget http://tesseract-ocr.googlecode.com/files/eng.traineddata.gz
+        sudo wget https://tesseract-ocr.googlecode.com/files/tesseract-ocr-3.02.eng.tar.gz
         cd /usr/local/share/tessdata
-        sudo gzip -d /tmp/eng.traineddata.gz
+        gzip -d /tmp/tesseract-ocr-3.02.eng.tar.gz
+	tar xfv /tmp/tesseract-ocr-3.02.eng.tar
 
 ***Install nodecr***
 
